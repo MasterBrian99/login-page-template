@@ -1,4 +1,4 @@
 # login-page-template
 simple login &amp; signup page
 
-![sample Image](Screenshot (10).png)
+![sample Image](https://github.com/MasterBrian99/login-page-template/blob/master/Screenshot%20(10).png)
