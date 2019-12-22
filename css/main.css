@@ -1,0 +1,174 @@
+html {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	height: 100%;
+	position: absolute;
+}
+
+body {
+
+	 	background-image: url(https://i.ibb.co/ZTF9ThD/cool-background.png);
+
+}
+
+h1 {
+	margin-left: 500px;
+    margin-top: 200px;
+    font-family: Georgia, serif;
+    font-size: 90px;
+    letter-spacing: 3.4px;
+    word-spacing: -0.8px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+
+}
+
+.text-focus-in{-webkit-animation:text-focus-in 2s ease-in both;animation:text-focus-in 2s ease-in both}
+@-webkit-keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
+
+
+.ls {
+
+	padding-top: 100px;
+	padding-left: 500px;
+
+
+}
+
+
+.signup {
+	box-shadow: 11px 12px 21px 0px #1b64c2;
+	background:linear-gradient(to bottom, #39deb8 5%, #2a3bbd 100%);
+	background-color:#39deb8;
+	border-radius:42px;
+	border:2px solid #6883f0;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Georgia;
+	font-size:23px;
+	font-weight:bold;
+	padding:18px 47px;
+	text-decoration:none;
+	text-shadow:0px 0px 28px #0628cf;
+}
+.signup:hover {
+	background:linear-gradient(to bottom, #2a3bbd 5%, #39deb8 100%);
+	background-color:#2a3bbd;
+}
+.signup:active {
+	position:relative;
+	top:1px;
+}
+
+.signin {
+	margin-left: 60px;
+	box-shadow: 11px 12px 21px 0px #1b64c2;
+	background:linear-gradient(to bottom, #39deb8 5%, #2a3bbd 100%);
+	background-color:#39deb8;
+	border-radius:42px;
+	border:2px solid #6883f0;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Georgia;
+	font-size:23px;
+	font-weight:bold;
+	padding:18px 47px;
+	text-decoration:none;
+	text-shadow:0px 0px 28px #0628cf;
+}
+.signin:hover {
+	background:linear-gradient(to bottom, #2a3bbd 5%, #39deb8 100%);
+	background-color:#2a3bbd;
+}
+.signin:active {
+	position:relative;
+	top:1px;
+}
+
+
+.contain {
+	background: rgb(65,127,249);
+background: linear-gradient(207deg, rgba(65,127,249,0.6166841736694677) 0%, rgba(65,217,249,0) 100%);
+	margin:50px 0 0 500px;
+	padding: 10px 0 10px 20px;
+	border:2px solid #6883f0;
+}
+
+.main_name {
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+}
+
+#user {
+	margin-top: 0px;
+     width: 400px;
+     padding: 6px;
+     font-size: 22px;
+     border-width: 2px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: inset;
+     border-radius: 31px;
+     box-shadow: 9px 0px 13px rgba(66,66,66,.56);
+     text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+ }
+
+ #user:focus {
+     outline:none;
+
+}
+
+#psw {
+     width: 400px;
+     padding: 6px;
+     font-size: 22px;
+     border-width: 2px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: inset;
+     border-radius: 31px;
+     box-shadow: 9px 0px 13px rgba(66,66,66,.56);
+     text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+ }
+
+ #psw:focus {
+     outline:none;
+
+}
+
+.sign_up {
+	margin-top: 15px;
+	margin-left: 200px;
+	box-shadow: 11px 12px 21px 0px #021226;
+	background:linear-gradient(to bottom, #077d29 5%, #307d94 100%);
+	background-color:#077d29;
+	border-radius:42px;
+	border:2px solid #6883f0;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Georgia;
+	font-size:23px;
+	font-weight:bold;
+	padding:18px 47px;
+	text-decoration:none;
+	text-shadow:0px 0px 28px #2b44b3;
+}
+.sign_up:hover {
+	background:linear-gradient(to bottom, #307d94 5%, #077d29 100%);
+	background-color:#307d94;
+}
+.sign_up:active {
+	position:relative;
+	top:1px;
+}
+
